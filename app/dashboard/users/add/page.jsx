@@ -8,7 +8,7 @@ export default function AddUserPage() {
       <form action={addUser} className="gap-4 flex flex-col">
         <Input name='username' type='text' placeholder='Username' required />
         <Input name='email' type='email' placeholder='Email' required />
-        <Input name='userImage' type='text' placeholder='Pexels Image URL' />
+        <Input name='userImage' type='text' placeholder='Image URL' />
         <Input name='password' type='password' placeholder='Password' required />
         <select name="isAdmin" id="isAdmin" required className="p-3 text-sm bg-zinc-700">
           <option value={false} selected disabled>is Admin?</option>

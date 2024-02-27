@@ -1,12 +1,14 @@
 import Input from "@/app/components/Input"
 
+import { addUser } from "@/app/lib/actions"
+
 export default function AddUserPage() {
   return (
     <div className="p-4 rounded bg-zinc-800">
-      <form action="" className="gap-4 flex flex-col">
+      <form action={addUser} className="gap-4 flex flex-col">
         <Input name='username' type='text' placeholder='Username' required />
         <Input name='email' type='email' placeholder='Email' required />
-        <Input name='phone' type='phone' placeholder='Phone' />
+        <Input name='userImage' type='text' placeholder='Pexels Image URL' />
         <Input name='password' type='password' placeholder='Password' required />
         <select name="isAdmin" id="isAdmin" required className="p-3 text-sm bg-zinc-700">
           <option value={false} selected disabled>is Admin?</option>

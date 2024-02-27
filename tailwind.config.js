@@ -17,6 +17,11 @@ module.exports = {
       },
     },
     extend: {
+      flex: {
+        '3': '3 3 0%',
+        '4': '4 4 0%',
+        '5': '5 5 0%',
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

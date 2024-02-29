@@ -29,7 +29,7 @@ export default async function UserDetails({ params }) {
           <label className='mb-[-12px]'>Stock</label>
           <Input name='stock' type='number' defaultValue={product.stock} placeholder='Stock' required />
           <label className='mb-[-12px]'>Product Image</label>
-          <Input name='productImage' type='text' placeholder='Image URL' />
+          <Input name='productImage' type='text' defaultValue={product.productImage} placeholder='Image URL' />
           <label className='mb-[-12px]'>Description</label>
           <textarea name="description" id="description" defaultValue={product.description} placeholder='Description' rows='5' maxLength='400' className="p-3 text-sm bg-zinc-700" />
           <button type="submit" className="max-w-[20rem] p-3 ml-auto font-medium rounded bg-zinc-700 hover:bg-violet-500 transition-all">Update Product</button>

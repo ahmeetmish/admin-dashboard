@@ -27,7 +27,7 @@ export default async function UserDetails({ params }) {
           <label className='mb-[-12px]'>Password</label>
           <Input name='password' type='password' placeholder='Password' />
           <label className='mb-[-12px]'>User Image</label>
-          <Input name='userImage' type='text' placeholder='Image URL' />
+          <Input name='userImage' type='text' defaultValue={user.userImage} placeholder='Image URL' />
           <label className='mb-[-12px]'>is Admin?</label>
           <select name="isAdmin" id="isAdmin" required className="p-3 text-sm bg-zinc-700">
             <option value={true} selected={user.isAdmin}>True</option>

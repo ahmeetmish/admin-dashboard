@@ -10,4 +10,5 @@ npm install > npm run dev
 
 Secondly, create a .env file and put in ```MONGODB_ATLAS_URL = yourmongodburl```
 
-[![Dashboard Tutorial](https://github.com/codingwithmish/admin-dashboard/assets/99095315/a29f03e6-8389-49df-ac98-d1c186a8575e)](https://streamable.com/dgis4f)
+Click on the image and access the video
+[![Dashboard Tutorial](https://imgur.com/a/Mh9ljbU)](https://streamable.com/dgis4f)
